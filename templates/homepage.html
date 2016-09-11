@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+
+{% if "user_id" in session %}
+<div>
+
+  <h2><a href="/posts">Posts</a></h2>
+
+  
+  <h2><a href="/users">Users</a></h2>
+</div>
+{% endif %}
+
+{% endblock %}
